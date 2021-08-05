@@ -1,5 +1,6 @@
 import time
 
+
 def main():
     timeStart = time.perf_counter_ns()
 
@@ -36,7 +37,6 @@ def main():
 
             # This condition only happens at multiples of the current bus
             now += step
-
 
     print(f"\nFinal time: {now-step}")
 
