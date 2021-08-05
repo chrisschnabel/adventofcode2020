@@ -1,0 +1,4 @@
+mask = 0XXX
+mem[1] = 7
+mask = 00X0
+mem[1] = 1
